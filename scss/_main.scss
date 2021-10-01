@@ -1,0 +1,62 @@
+
+.table{
+    color: $color_1;
+}
+
+thead{
+    color: $color_2;
+    font-family: $font-primary;
+}
+
+tbody{
+    color: $color_3
+}
+
+.footer{
+    p{
+        font-size: 20px;
+        color: $color_2;
+    }
+}
+
+
+//Bucle //interpolaciones //
+@for $i from 6 to 1 {
+    
+    h#{$i}{
+        font-size: $i * 2cm;
+    }
+    
+}
+
+//Each (bucle) colores //
+$lista-colores: DarkRed, IndianRed;
+
+@each $color in $lista-colores {
+    .#{$color}{
+        color: $color;
+    }
+    
+}
+
+//Mapa
+
+$redes: (
+    facebook: rgb(25, 5, 201),
+    instagram: rgb(201, 5, 126),
+);
+@each $red, $color in $redes {
+    .btn-#{$red} {
+        color: $color;
+        width: 40px;
+    }
+    
+}
+//Mixins_logo//
+@mixin size ($alto:200px, $ancho:200px){
+    height: $alto;
+    width: $ancho;
+}
+.logo{
+    @include size;
+}

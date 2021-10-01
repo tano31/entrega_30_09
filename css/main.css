@@ -1,0 +1,358 @@
+
+/*Header*/
+header{
+    background-color: #FFFFFF;
+    background-image: url('../archivos/foto_1.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Font-family*/
+body{
+    font-family: 'Dancing Script', cursive;
+
+ /*Bootstrap*/   
+}
+.container-fluid{
+    font-family: 'Dancing Script', cursive;
+}
+.card{
+    font-family: 'Dancing Script', cursive;
+}
+.navbar{
+    font-family: 'Dancing Script', cursive;
+    background-color: #996b00;
+}
+.fab{
+    color: #FFFFFF;
+}
+section h2{
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+form{
+    max-width: 500px;
+    padding: 50px;
+}
+.carousel-item{
+    max-width: 1350px;
+    height: 600px;
+}
+/*NavBar*/
+nav{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#titulo1 h1{
+    color: #FFFFFF;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+  }
+
+ul ul li {
+    display: block;
+  }
+
+ul li:hover ul {
+  display: block;
+}
+
+.nav li {
+    list-style: none; 
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    background-color: #bd8500;
+    border-radius: 30px; 
+    height: 20px;
+    
+}
+li ul{
+    list-style: none; 
+    align-items: center;
+    
+}
+.nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#main_home h2 {
+    color: #4a3200;
+}
+
+p {
+    color: black;
+}
+a .nav-link{
+    color: #FFFFFF;
+}
+
+/*Navegador nosotros*/
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.sobreNos{
+    flex-direction: row;
+}
+nav .sobreNos{
+    justify-content: space-around;
+    align-items: center;
+    width: max-content 600px;
+}
+
+/*gradientes_historia*/
+.navHistoria{
+    background-color: black;
+    height: 10vh;
+    background-image: linear-gradient(to right, #4a3200, #bd8500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.font-size{
+    font-size: 20px;
+}
+/*hover*/
+.navHist:hover{
+    width: 1350px;
+    color: black;
+    font-size: 40px  ;
+}
+.font-size{
+    width: auto;
+}
+
+/*===============animacion_historia==================*/
+.logoAnimado{
+    font-size: 30px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: all 2s ease-in 1s;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+@keyframes logo{
+    0% {
+        width: 800px;
+        background-color: #211600;
+    }
+    50% {
+        width: 1000px;
+        background-color: #4a3200;
+    }
+    100% {
+        width: 1340px;
+        background-color: #bd8500;
+    }
+}
+
+/*
+.flexContainerUno{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexContainerDos{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*========grid_home=======*/
+
+/*
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+      'header header'
+      'navContainer mainHome'
+      'gridProductos gridProductos'
+      'gridProductos gridProductos'
+      'gridProductos gridProductos'
+      'video mapa'
+      'footer footer'
+    ;
+}
+/*
+.gridContainer div {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}*/
+
+/*
+#header{
+    grid-area: header;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+}
+#navContainer{
+    grid-area: navContainer;
+    display: flex;
+
+}
+#mainHome{
+    grid-area: mainHome;
+    display: flex;
+}
+#gridProdutos{
+    grid-area: gridProdutos;
+    display: flex;
+}
+#video{
+    grid-area: video;
+    display: flex;
+}
+#mapa{
+    grid-area: mapa;
+    display: flex;
+}
+#footer{
+    grid-area: footer;
+    display: flex;
+}
+/*========media_home=======*/
+@media only screen and (min-width:768px) {
+    .gridContainer{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(7,1fr);
+        
+        grid-template-areas: 
+      'header header header'
+      'navContainer navContainer navContainer'
+      'mainHome mainHome mainHome'
+      'gridProductos gridProductos gridProductos'
+      'gridProductos gridProductos gridProductos'
+      'video mapa mapa'
+      'footer footer footer';
+        
+    }
+}
+@media only screen and (min-width:1240px) {
+    .gridContainer{ 
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(8,1fr);
+       
+        grid-template-areas: 
+        'header header header'
+      'navContainer navContainer navContainer'
+      'mainHome mainHome mainHome'
+      'gridProductos gridProductos gridProductos'
+      'gridProductos gridProductos gridProductos'
+      'video video video'
+      'mapa mapa mapa'
+      'footer footer footer';
+    }
+
+} 
+
+/*=====grid_nosotros=====*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+      'headerNos h2Nos'
+      'about about'
+      'company company'
+      'aside aside'
+    ;
+}
+.grid-container div {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#headerNos{
+    grid-area: headerNos;
+    
+}  
+#h2Nos{
+    grid-area: h2Nos;
+}  
+#about{
+    grid-area: about;
+}
+#company{
+    grid-area: company;
+}
+#aside{
+    grid-area: aside;
+}
+
+/*======media_nosotros======*/
+@media only screen and (min-width:768px) {
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        'headerNos headerNos headerNos'
+        'h2Nos about about'
+        'company company company'
+        'aside aside aside'
+      ;
+        
+    }
+}
+@media only screen and (min-width:1240px) {
+    .grid-container{ 
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        'headerNos headerNos headerNos'
+        'h2Nos about about'
+        'company company aside'
+        'company company aside'
+      ;
+    }
+
+} 
+
+/*agregar margin 0 padding 0*/
+/*footer*/
+footer{
+    background-color: #dbcfb1;
+}
+
+
+/*colors
+#211600
+*/

@@ -1,0 +1,76 @@
+.table {
+  color: #211600; }
+
+thead {
+  color: #4a3200;
+  font-family: "Dancing Script", cursive; }
+
+tbody {
+  color: #bd8500; }
+
+div p {
+  font-size: 15px;
+  color: #bd8500;
+  font-family: "Dancing Script", cursive; }
+
+.navProdutos {
+
+  background-color: #4a3200; }
+
+.navProdutos a {
+  color: #FFFFFF; 
+  text-decoration: none; }
+
+.footer p {
+  font-size: 20px;
+  color: #4a3200; }
+  
+/*Tamaño_fuentes_Bucle*/
+h6{
+  font-size: 30px; }
+
+h5{
+  font-size: 40px; }
+
+h4{
+  font-size: 50px; }
+
+h3{
+  font-size: 60px; }
+
+h2{
+  font-size: 70px; }
+
+h1{
+  font-size:80px; }
+
+
+
+/*Font_color*/
+.DarkRed{
+  color: DarkRed; }
+
+.IndianRed{
+  color: IndianRed; }
+
+
+
+/*Mapa_redes*/
+
+.btn-facebook{
+  color: rgb(25, 5, 201);
+  width: 40px; }
+
+.btn-instagram{
+  color: rgb(201, 5, 126);
+  width: 40px; }
+
+.logo {
+  height: 100px;
+  width: 100px; }
+
+#headerNos nav{
+    background-color: #4a3200; }
+
+nav a{
+      color: #FFFFFF; }
