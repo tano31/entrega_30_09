@@ -1,5 +1,5 @@
 {
-  "name": "desafio_12",
+  "name": "Desarrollo web para proyecto La Folhateria",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,5 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
-  "description": ""
+  "description": "Se trata del diseño del web site de La Folhateria, un emprendimiento de venta de medialunas y facturas argentinas en Santos, Brasil"
 }

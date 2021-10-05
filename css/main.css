@@ -171,80 +171,7 @@ nav .sobreNos{
     }
 }
 
-/*
-.flexContainerUno{
-    display: flex;
-    padding: 10px;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.flexContainerDos{
-    display: flex;
-    padding: 10px;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-
-/*========grid_home=======*/
-
-/*
-.gridContainer{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(7,1fr);
-    grid-gap: 20px;
-    grid-template-areas: 
-      'header header'
-      'navContainer mainHome'
-      'gridProductos gridProductos'
-      'gridProductos gridProductos'
-      'gridProductos gridProductos'
-      'video mapa'
-      'footer footer'
-    ;
-}
-/*
-.gridContainer div {
-	padding: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}*/
-
-/*
-#header{
-    grid-area: header;
-    justify-self: center;
-    align-self: center;
-    display: flex;
-}
-#navContainer{
-    grid-area: navContainer;
-    display: flex;
-
-}
-#mainHome{
-    grid-area: mainHome;
-    display: flex;
-}
-#gridProdutos{
-    grid-area: gridProdutos;
-    display: flex;
-}
-#video{
-    grid-area: video;
-    display: flex;
-}
-#mapa{
-    grid-area: mapa;
-    display: flex;
-}
-#footer{
-    grid-area: footer;
-    display: flex;
-}
 /*========media_home=======*/
 @media only screen and (min-width:768px) {
     .gridContainer{
@@ -346,13 +273,10 @@ nav .sobreNos{
 
 } 
 
-/*agregar margin 0 padding 0*/
-/*footer*/
+
+/*======footer======*/
 footer{
     background-color: #dbcfb1;
 }
 
 
-/*colors
-#211600
-*/
