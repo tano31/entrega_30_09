@@ -2145,6 +2145,7 @@ progress {
 }
 .form-label {
   margin-bottom: 0.5rem;
+  font-size: 25px;
 }
 
 .col-form-label {
@@ -4479,10 +4480,12 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  font-size: 25px;
 }
 
 .card-title {
   margin-bottom: 0.5rem;
+  font-size: 35px;
 }
 
 .card-subtitle {
@@ -4492,6 +4495,7 @@ textarea.form-control-lg {
 
 .card-text:last-child {
   margin-bottom: 0;
+  font-size: 15px;
 }
 
 .card-link + .card-link {
@@ -7607,6 +7611,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  
 }
 
 .text-decoration-none {
