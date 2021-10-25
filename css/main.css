@@ -8,7 +8,7 @@ header{
     background-position: center;
     color: #FFFFFF;
     text-align: center;
-    font-size: 25px;
+    font-size: 75px;
 }
 
 /*Font-family*/
@@ -37,8 +37,8 @@ section h2{
 
 h1{
     font-family: 'Dancing Script', cursive;
-    -webkit-text-stroke:1px;
-    -webkit-text-stroke-color:black;
+    margin: 40px;
+   
 }
 form{
     max-width: 500px;
@@ -130,7 +130,8 @@ nav .sobreNos{
     font-size: 25px;
 }
 .font-size{
-    font-size: 20px;
+    font-size: 25px;
+    margin: 20px;
 }
 /*hover*/
 .navHist:hover{
@@ -243,9 +244,12 @@ nav .sobreNos{
 }
 #company{
     grid-area: company;
+    
+
 }
 #aside{
     grid-area: aside;
+    margin: 30px;
 }
 
 /*======media_nosotros======*/

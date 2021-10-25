@@ -9,7 +9,7 @@ tbody {
   color: #bd8500; }
 
 div p {
-  font-size: 35px;
+  font-size: 25px;
   color: #bd8500;
   font-family: "Dancing Script", cursive; }
 
@@ -48,10 +48,12 @@ h1{
 
 /*Font_color*/
 .DarkRed{
-  color: DarkRed; }
+  color: DarkRed;
+  margin: 20px; }
 
 .IndianRed{
-  color: IndianRed; }
+  color: IndianRed; 
+  margin: 10px; }
 
 
 
@@ -59,11 +61,17 @@ h1{
 
 .btn-facebook{
   color: rgb(25, 5, 201);
-  width: 40px; }
+  width: 40px; 
+  font-size: 30px;
+  text-decoration: none;
+  margin: 25px;}
 
 .btn-instagram{
   color: rgb(201, 5, 126);
-  width: 40px; }
+  width: 40px; 
+  font-size: 30px;
+  text-decoration: none;
+  margin: 5px;}
 
 .logo {
   height: 100px;
@@ -78,4 +86,12 @@ nav a{
 .fab fa-facebook-f{
   font-size:40px; }
 
+/*================AGREGAR==================*/
 
+.text-align{
+  margin: 30px; }
+
+.historia{
+    margin: 30px; }
+.back{
+     margin: 90px; }
